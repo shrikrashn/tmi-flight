@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+:-moz-focusring {
+  outline: 0px!important;
+}
+.recent-gallery .img:hover{transform: scale(1.1);}
+.recent-gallery .slick-next::before{background: url(../public/images/next-arrow.svg) no-repeat center;
+  color: transparent; width: 42px;height: 42px;display: block;position: absolute;right: 0px;left: 0;top: 0;
+  bottom: 0;margin: auto;font-size: 0px;opacity: 1;}
+  .recent-gallery .slick-prev::before{background: url(../public/images/prev-arrow.svg) no-repeat center;
+  color: transparent; width: 42px;height: 42px;display: block;position: absolute;right: 0px;left: 0;top: 0;
+  bottom: 0;margin: auto;font-size: 0px;opacity: 1;}
+  .recent-gallery .slick-prev{left: -10px; top: 41%; z-index: 99;}
+.recent-gallery .slick-next{right: 10px; top: 41%;}
+.input-from input:focus + .search-result, .input-to input:focus + .tosearch, .travller input:focus + .traveller-select{display: block;}
+.banner:before{background:url("../public/images/air-bg.png") no-repeat top center; height: 100%; width:100%; content: ''; position: absolute; top:110px; left: 0;}
+.date-scroll li.active{border-bottom: 2px solid #2F80ED;}
+.detail:focus + .flight-detail{display: block;}
+.none-ref > div{border: 0;}
+.view-menu:focus + .add-flightmeal, .view-menu:focus + .add-flight-baggage{display: block;}
+.f-details:focus + .detail-trip, .select-travlr:focus + .traveller-select{display: block;}
+
+
+
